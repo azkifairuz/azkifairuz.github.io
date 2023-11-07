@@ -350,10 +350,13 @@ img {
   height: 120px;
   border-radius: 50%;
   justify-self: center;
+  object-fit: cover;
+  background-position: right; 
   margin-bottom: var(--mb-1);
 }
 
 .home__title {
+  margin-top: var(--mb-2)
   font-size: var(--h1-font-size);
 }
 
